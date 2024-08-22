@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register New User</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="user-todos.html">ToDo List</a>
+        <a href="new-todo.html">Add New ToDo</a>
+        <a href="new_user.html">Register New User</a>
+    </div>
+ 
+    <div class="container">
+        <h1>Register New User</h1>
+        <form id="registerForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+ 
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+ 
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+ 
+            <label for="confirmPassword">Confirm Password:</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" required>
+ 
+            <button type="submit">Register</button>
+            <p id="message" class="message"></p>
+        </form>
+        <div class="links">
+            <a href="user-todos.html">Back to ToDo List</a>
+            <a href="new-todo.html">Add New ToDo</a>
+        </div>
+    </div>
+    <script src="new_user.js"></script>
+</body>
+</html>
